@@ -1,0 +1,19 @@
+td{
+    border: 2px solid black;
+}
+th{
+    border: 2px solid black;
+}
+
+h1{
+    color: aqua;
+}
+
+caption{
+    color: blue;
+    border-color: blanchedalmond;
+}
+
+tr{
+    color: brown;
+}

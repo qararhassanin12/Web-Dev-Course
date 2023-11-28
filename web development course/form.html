@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form  - Lets learn it</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+        <h1>Form to apply for Sigma Web Developement course - TA</h1>
+
+    <form action="post">
+
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text"  id="username" name="usernmae" placeholder="Enter your name" autofocus>
+        </div>
+
+        <div>
+            <label for="password">Enter your password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+        </div>
+
+
+
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender"  value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+
+    
+
+        <div>
+            <label for="student">Your are Graduate</label>
+            <input type="checkbox" id="student"  value="yes">
+        </div>
+
+        <div>
+            <label for="sop">Statement of purpose</label>
+            <textarea name="comment" rows="" cols="20">Enter SoP....</textarea>
+        </div>
+
+        <div>
+            <label for="subject"> Select your Subject</label>
+            <select name="subject" id="subject">
+                <option value="Computer Sceience ">Computer Science</option>
+                <option value="Software Engg">Software Engg</option>
+                <option value="Data Science">Data Science</option>
+            </select>
+        </div>
+        
+        <div id="q">
+            <button>Submit</button>
+            <button>Cancel</button>
+        </div>
+    </form>
+</body>
+</html>

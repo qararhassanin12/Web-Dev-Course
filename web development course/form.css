@@ -1,0 +1,15 @@
+h1{
+    border: 1px solid rebeccapurple;
+    padding: 10px;
+}
+
+div{
+    margin: 25px;
+}
+
+button{
+    background-color: beige;
+    box-shadow: 20px;
+    font-weight: bold;
+}
+
