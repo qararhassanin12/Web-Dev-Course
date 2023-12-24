@@ -7,9 +7,14 @@ div{
     margin: 25px;
 }
 
-button{
+button1{
     background-color: beige;
     box-shadow: 20px;
     font-weight: bold;
 }
 
+button2{
+    background-color: beige;
+    box-shadow: 20px;
+    font-weight: bold;
+}
